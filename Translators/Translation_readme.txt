@@ -11,7 +11,7 @@ S. Morotti, C. Liu, B. Hegyi, H. Ni, A. Fogli Iseppe, L. Wang, M. Pritoni,
 C.M. Ripplinger, D.M. Bers, A.G. Edwards, E. Grandi.
 Quantitative cross-species translators of cardiac myocyte electrophysiology:
 model training, experimental validation, and applications.
-In revision for Sci Adv.
+Science Advances. 2021 Nov 19;7(47):eabg0927.
 
 Please cite the above paper when using these codes.
 
