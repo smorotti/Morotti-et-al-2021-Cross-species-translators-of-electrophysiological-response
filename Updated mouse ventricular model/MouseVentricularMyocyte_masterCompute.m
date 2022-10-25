@@ -2,6 +2,8 @@
 % This file loads the initial conditions, calls the ode solver, and plots
 % the results.
 
+% Corrected typo on line 172 in masterODEfile on January 24, 2022
+
 close all
 clear 
 clc

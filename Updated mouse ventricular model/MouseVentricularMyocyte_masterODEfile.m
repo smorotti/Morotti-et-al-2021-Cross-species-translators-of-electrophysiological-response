@@ -169,7 +169,8 @@ end
 
 % incorporate Ca buffering from CaM, convert JCaCyt from uM/msec to mM/msec
 if Ca_clamp == 0
-    dydt_ecc(35) = dydt_ecc(36) + 1e-3*JCaDyad;
+    %dydt_ecc(35) = dydt_ecc(36) + 1e-3*JCaDyad; % Typo
+    dydt_ecc(36) = dydt_ecc(36) + 1e-3*JCaDyad; % Corrected on January 24, 2022
     dydt_ecc(37) = dydt_ecc(37) + 1e-3*JCaSL;
     dydt_ecc(38) = dydt_ecc(38) + 1e-3*JCaCyt; 
 end

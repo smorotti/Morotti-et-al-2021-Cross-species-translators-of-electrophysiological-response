@@ -8,6 +8,9 @@ and protein kinase A signaling pathways.
 The current version was developed by updating the Surdo et al. mouse ventricular model
 (Nat Commun. 2017 Apr 20;8:15031).
 
+
+[Note: Corrected typo on line 172 in masterODEfile on January 24, 2022.]
+
 ______________________________________________________________________________________
 Contents:
 

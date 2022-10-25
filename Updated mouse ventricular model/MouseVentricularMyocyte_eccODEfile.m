@@ -1099,7 +1099,7 @@ end
 
 % K Concentration
 I_K_tot = I_to+I_kr+I_ks+I_ki-2*I_nak+I_CaK+I_kp+I_kur+I_ss;     % [uA/uF]
-ydot(35) = 0; %-I_K_tot*Cmem/(Vmyo*Frdy);           % [mM/msec]
+ydot(35) = 0;% -I_K_tot*Cmem/(Vmyo*Frdy);           % [mM/msec]
 
 % Ca Concentrations
 I_Ca_tot_junc = I_Ca_junc+I_cabk_junc+I_pca_junc-2*I_ncx_junc; % [uA/uF]
